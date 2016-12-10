@@ -1,0 +1,65 @@
+<html> 
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/event.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+<div data-role="page"  id="pagetree">
+	 <div data-role="header"  style="background-color:gold;color:black;">
+		<h1 align="center">Jerry</h1>
+		<a href="#" class=" ui-alt-icon ui-input-btn ui-btn ui-icon-home ui-btn-icon-notext" data-transition="slide">Home</a>
+			<div data-role="controlgroup" data-type="horizontal" class="ui-mini ui-btn-right">
+				<a href="#" class="ui-alt-icon ui-btn ui-shadow ui-corner-all ui-icon-shop ui-btn-icon-notext ui-btn-inline" data-transition="slide">Home</a>
+				<a href="#" class="ui-alt-icon ui-btn ui-shadow ui-corner-all ui-icon-bars ui-btn-icon-notext ui-btn-inline" data-transition="slide">Home</a>
+			</div> 		
+	</div>
+<div data-role="main" class="ui-content">	
+<table>
+	  <tr>
+		<a href="#popupArsenal" data-rel="popup" data-position-to="window" data-transition="slidefade" >
+		<img class=popphoto src="arsenal.jpg" alt="Arsenal" style="width: 40%" ></a> 
+			<div data-role="popup" id=popupArsenal data-overlay-theme="b" data-theme="b" data-corners="false" >
+				<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right" >Close</a>
+				<img class=popphoto src="arsenal.jpg" style="max-height: 512px"  alt="Arsenal"> 
+			</div> 
+	  </tr>
+</table>
+
+	<h1> Puma Arsenal Kit Home </h1>
+	  <ul>
+			 <li> Manufactured    : Puma </li>
+			 <li> Jersey Name     : Arsenal Kit Home </li>
+			 <li> Model : Seasons 2015/2016 </li>
+			 <li> Sleeve type    : Short </li>
+			 <li> Made in    : Thailand, Bangladesh, Vietnam, Indonesia </li>
+			 <li> Country    : England </li>
+			 <li> League    : English Premier League </li>
+			 <li> Size    : S,M,L,XL </li>
+			 <li> Gender    : Male </li>
+			 <li> Harga    : Rp. 150.000,- </li>
+			 <li> Pengirim    : JNE </li>
+	  </ul>
+		<div data-role="controlgroup" data-type="vertical">
+			 <div align="right">
+				<a href="hal3.html" class="ui-btn ui-btn-b ui-btn-inline" data-transition="slide">Beli</a>	
+			</div>
+		</div>
+	  </div>
+			
+<div data-role="footer">		
+	   <div data-role="navbar" data-iconpos="bottom">
+		  <ul>
+			<li><a href="#" class="ui-btn" data-icon="info">Tentang</a></li>
+			<li><a href="#" class="ui-btn" data-icon="alert">Kebijakan Privasi</a></li>
+			<li><a href="#" class="ui-btn" data-icon="phone">Kontak Kami</a></li>
+		  </ul>
+	   </div>
+ </div>
+	
+</div>
+</body>
+</html> 
